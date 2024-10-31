@@ -1,4 +1,4 @@
-
+## SETUP DNS
 ### Step 1: Point the Domain to Your Server’s IP Address
 
 1. **Log in to your domain registrar’s website** (where you purchased the domain).
