@@ -32,13 +32,11 @@ sudo systemctl restart apache2
 ##7. Set Up a Database 
 Install MySQL or MariaDB for database support:
 ```bash
-Copy code
 sudo apt install mysql-server -y
 ```
 
 Secure your database installation:
 ```bash
-Copy code
 sudo mysql_secure_installation
 ```
 Create a database and user, then grant permissions:
@@ -61,6 +59,5 @@ sudo apt install certbot python3-certbot-apache  # For Apache
 ```
 Run Certbot to automatically configure HTTPS:
 ```bash
-
 sudo certbot --apache
 ```
