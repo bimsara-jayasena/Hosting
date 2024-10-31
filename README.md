@@ -6,4 +6,4 @@ Make sure it meets your app's resource requirements, such as storage, memory, an
 <h2>2. Access the VPS</h2>
 Once your VPS is ready, log in to the server using SSH. You’ll need the IP address, username, and password (or private key).
 On Windows, you can use an SSH client like PuTTY, and on macOS/Linux, you can use the terminal:
->ssh username@your_vps_ip
+`ssh username@your_vps_ip`
